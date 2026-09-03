@@ -24,9 +24,9 @@ human_validation = "no"
 auto_corrections = 2
 agent_timeout = 1800
 agent_timeouts = 2
-spend_limit_usd = 0
+spend_limit_usd = 25
 preset = "default"
 env_up = ""
 env_down = ""
-on_transition = ""
+on_transition = "node /Users/julienlavinh/multiagents/cable-github/on-transition.mjs"
 
