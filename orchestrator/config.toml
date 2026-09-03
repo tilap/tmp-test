@@ -1,0 +1,32 @@
+repository = "https://github.com/tilap/tmp-test.git"
+integration_branch = "example-integration"
+sensitive = []
+forge = "github"
+push = "origin"
+merge = "pull_request"
+ci = "remote"
+
+[validators]
+test = "npm test"
+
+[presets.default]
+builder = "medium"
+qa = "medium"
+reviewer = "medium"
+reporter = "medium"
+
+[task]
+prefix = "F"
+
+[run]
+wave_width = 2
+human_validation = "no"
+auto_corrections = 2
+agent_timeout = 1800
+agent_timeouts = 2
+spend_limit_usd = 0
+preset = "default"
+env_up = ""
+env_down = ""
+on_transition = ""
+
