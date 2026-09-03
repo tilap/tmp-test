@@ -1,23 +1,5 @@
-# dummy-repo
+# F003
 
-A minimal Node library. It exists to be experimented on: small enough to read
-in a minute, with a test command and a CI workflow already wired.
+Written by agent-stub. No model produced this file.
 
-Nothing here is a real product. Create your own copy from this template and
-change whatever you like.
-
-## Install
-
-```bash
-npm install
-```
-
-## Test
-
-```bash
-npm test
-```
-
-## Usage
-
-Not written yet.
+Generated at 2026-09-03T22:02:41.267Z.
