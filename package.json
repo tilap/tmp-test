@@ -1,0 +1,10 @@
+{
+  "name": "dummy-repo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A minimal Node library to experiment on.",
+  "scripts": {
+    "test": "node --test"
+  }
+}
