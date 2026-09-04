@@ -20,4 +20,14 @@ npm test
 
 ## Usage
 
-Not written yet.
+Import the functions from `src/` and call them in your code:
+
+```javascript
+import { greet } from "./src/greet.js";
+import { sum } from "./src/sum.js";
+
+greet("Ada"); // "hello, Ada"
+sum(2, 3);    // 5
+```
+
+`greet` expects a non-empty string and throws `TypeError` otherwise. `sum` expects two finite numbers and throws `TypeError` otherwise.
