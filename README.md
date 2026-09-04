@@ -20,4 +20,18 @@ npm test
 
 ## Usage
 
-Not written yet.
+Import the helpers from `src/` and call them in your script:
+
+```javascript
+import { greet } from "./src/greet.js";
+import { sum } from "./src/sum.js";
+
+console.log(greet("Ada")); // "hello, Ada"
+console.log(sum(1, 2));    // 3
+```
+
+Run the script with Node (ES modules):
+
+```bash
+node your-script.js
+```
