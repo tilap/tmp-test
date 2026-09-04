@@ -20,4 +20,33 @@ npm test
 
 ## Usage
 
-Not written yet.
+This repo uses native ES modules (`"type": "module"` in `package.json`). Import
+functions from their source files:
+
+### greet
+
+`greet(name)` returns a greeting string. `name` must be a non-empty string;
+otherwise it throws `TypeError`.
+
+```js
+import { greet } from "./src/greet.js";
+
+greet("Ada"); // "hello, Ada"
+
+greet(""); // TypeError: name must be a non-empty string
+```
+
+### sum
+
+`sum(a, b)` returns the sum of two finite numbers. Both arguments must be
+finite numbers; otherwise it throws `TypeError`.
+
+```js
+import { sum } from "./src/sum.js";
+
+sum(2, 3); // 5
+sum(-1, 1); // 0
+
+sum("1", 2); // TypeError: Arguments must be finite numbers
+sum(Infinity, 2); // TypeError: Arguments must be finite numbers
+```
