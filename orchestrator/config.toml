@@ -24,10 +24,10 @@ human_validation = "no"
 auto_corrections = 2
 agent_timeout = 1800
 agent_timeouts = 2
-max_agent_calls = 0
+max_agent_calls = 60
 preset = "default"
 env_up = ""
 env_down = ""
-on_transition = ""
-guard = ""
+on_transition = "node /Users/julienlavinh/multiagents/cable-github/on-transition.mjs"
+guard = "node /Users/julienlavinh/multiagents/examples/prd-to-integration/project/guard.mjs"
 
